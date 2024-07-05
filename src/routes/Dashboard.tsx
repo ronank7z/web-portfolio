@@ -13,16 +13,16 @@ import Project from "../components/Project";
 const Dashboard = () => {
 	return (
 		<>
-			<section className="px-8">
+			<section className="md:px-8">
 				<Header />
 			</section>
-			<section className="px-8 py-2">
+			<section className="md:px-8 py-2">
 				<Hero />
 			</section>
-			<section className="px-8 py-2">
+			<section className="md:px-8 py-2">
 				<Quote />
 			</section>
-			<section className="px-8 py-4">
+			<section className="md:px-8 py-4">
 				<div className="flex justify-between items-center mb-4">
 					<h1 className="text-purple-600 font-bold text-2xl">{"#"}projects</h1>
 					<Button>View All</Button>
@@ -31,7 +31,7 @@ const Dashboard = () => {
 					<Project />
 				</div>
 			</section>
-			<section className="px-8 py-4">
+			<section className="md:px-8 py-4">
 				<div className="flex justify-between items-center mb-4">
 					<h1 className="text-purple-600 font-bold text-2xl">{"#"}skills</h1>
 				</div>
@@ -103,7 +103,7 @@ const Dashboard = () => {
 					</div>
 				</div>
 			</section>
-			<section className="px-8 py-4">
+			<section className="md:px-8 py-4">
 				<div className="flex justify-between items-center mb-4">
 					<h1 className="text-purple-600 font-bold text-2xl">{"#"}about-me</h1>
 				</div>
@@ -134,13 +134,13 @@ const Dashboard = () => {
 				</p>
 				<Button>Read More</Button>
 			</section>
-			<section className="px-8 py-4">
+			<section className="md:px-8 py-4">
 				<div className="flex justify-between items-center mb-4">
 					<h1 className="text-purple-600 font-bold text-2xl">{"#"}contacts</h1>
 				</div>
 				<div className="grid md:grid-cols-2 md:gap-8">
 					<div className=" space-y-2 py-2 space-x-2">
-						<p className="pb-2 px-2">Get in touch</p>
+						<p className="pb-2">Get in touch</p>
 						<div className="flex gap-4 items-center">
 							<p>
 								<IconPhoneCall />
@@ -168,7 +168,7 @@ const Dashboard = () => {
 					</div>
 				</div>
 			</section>
-			<footer className="px-8 py-4">
+			<footer className="md:px-8 py-4">
 				<p className="font-bold">RK-Dev</p>
 				<div className="md:flex md:justify-between">
 					<div className="mb-4">
