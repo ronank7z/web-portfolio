@@ -10,15 +10,15 @@
 		"name": "Horizon",
 		"stack": "NextJS, appwrite.io, sentry.io, plaid, dwolla, TypeScript, tailwindcss, ReactJS",
 		"img": "/assets/img/project/project2.png",
-		"desc": "Base on tutorial provided by JSMastery about banking, learning by doing and create a banking website that tracks expenses and check multiple balances with dummy data from plaid",
+		"desc": "Base on tutorial provided by JSMastery about banking, learning by doing and create a banking website that tracks expenses and check multiple balances with dummy data from plaid.",
 		"link": "https://waku-banking.vercel.app/"
 	},
 	{
 		"name": "Portfolio",
 		"stack": "ViteJS, ReactJS",
 		"img": "/assets/img/project/project3.png",
-		"desc": "Personal web portfolio to show case my journey in IT world, create using my pure skill and the help of google, of course a little help too with ChatGPT",
-		"link": ""
+		"desc": "Personal web portfolio to show case my journey in IT world, create using my pure skill and the help of google, of course a little help too with ChatGPT.",
+		"link": "https://ronank7z.github.io/web-portfolio/"
 	},
 	{
 		"name": "Automation for School",
@@ -26,5 +26,12 @@
 		"img": "/assets/img/project/project4.png",
 		"desc": "An automation for creating batch school report file. Use to reduce creating one by one each file with different class and lesson in Excel File. The concept is copy a master file and use python to manipulate each file to insert the lesson and class that provided by the user input.",
 		"link": "https://github.com/ronank7z/school-report-batch-create-evaluation"
+	},
+	{
+		"name": "Kedai Kopi",
+		"stack": "HTML, CSS, JavaScript",
+		"img": "/assets/img/project/project5.png",
+		"desc": "Website dummy for coffee showcase, including the navigation bar and cart function.",
+		"link": "https://ronank7z.github.io/kedai-kopi/"
 	}
 ]
