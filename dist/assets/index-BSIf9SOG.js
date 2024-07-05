@@ -10496,7 +10496,7 @@ const bp = () =>
 		return (
 			G.useEffect(() => {
 				(async () => {
-					const l = await (await fetch("../projects.json")).json();
+					const l = await (await fetch("/web-portfolio/projects.json")).json();
 					t(l);
 				})();
 			}, []),
